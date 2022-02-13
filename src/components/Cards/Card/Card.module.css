@@ -1,0 +1,10 @@
+.card {
+    margin: 0 4% !important;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2) !important;
+}
+
+@media (max-width: 770px) {
+    .card {
+        margin: 0 50% !important;
+    }
+}

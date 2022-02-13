@@ -1,0 +1,22 @@
+* {
+    box-sizing: boder-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 770px) {
+    .image {
+        width: 100%;
+    }
+}

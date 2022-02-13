@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10px 0;
+    width: 40%;
+    border: 1px solid black;
+}
+
+@media (max-width: 770px) {
+    .container {
+        width: 90%;
+        margin: 10px 0 !important;
+    }
+}
